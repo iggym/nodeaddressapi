@@ -6,16 +6,16 @@ var Schema = mongoose.Schema;
 var AddressSchema = new Schema({
   name: {
     type: String,
-    required: 'Kindly enter the name'
+    required: ' enter  name'
   },
   email: {
     type: String,
-    required: 'Kindly enter the email'
+    required: ' enter  email'
   },
   phone: {
     type: String,
-    required: 'Kindly enter the phone'
+    required: ' enter  phone'
   },
 });
 
-module.exports = mongoose.model('Addresses', AddressSchema);
+module.exports = mongoose.model('Address', AddressSchema);
