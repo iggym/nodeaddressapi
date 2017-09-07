@@ -5,9 +5,10 @@ RESTful API using Node.js
 * Node.js
 * [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
-## Start using 
+## Start the server
+```
 npm run start
-
+```
 make sure mongod is running and there is a /data/db directory
 
 
