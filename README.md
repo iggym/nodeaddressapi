@@ -13,7 +13,8 @@ make sure mongod is running and there is a /data/db directory
 
 ## Database 
 The data is stored in mongo. 
-*The api starts with an empty database.*
+
+Note: *The api starts with an empty database.*
 
 ### Installing MongoDB with Homebrew
 ```
